@@ -1,0 +1,117 @@
+/* Defined font-face for Gotham font */
+@font-face {
+    font-family: 'Gotham';
+    src: url('assets\fonts\Gotham-Book.otf') format('woff2');
+}
+
+/* General styles for the page */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gotham', sans-serif;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+/* Styles for the header */
+#header {
+    width: 100vw;
+    height: 8vh;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+#icon {
+    width: 40px;
+    height: 40px;
+    margin: 10px 0 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#icon img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+#searchBar {
+    display: flex;
+    align-items: center;
+    width: 35%;
+    height: 99%;
+
+    gap: 10px;
+}
+
+#searchInput {
+    background-color: #1f1f1f;
+    color: #fff;
+    height: 80%;
+    width: 85%;
+    padding: 0 0 0 20px;
+    font-size: 1rem;
+
+    border-radius: 50px;
+    max-height: 80%;
+}
+
+#searchButton {
+    background-color: #1f1f1f;
+    color: #2a2a2a;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchButton img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+
+/* Styles for the main content area */
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 81vh;
+    gap: 10px;
+}
+
+#biblioteca {
+    background-color: #121212;
+    width: 27%;
+    height: 100%;
+    border-radius: 5px;
+    margin: 0 0 0 10px;
+}
+
+#mainPage {
+    background: #212121;
+    background: linear-gradient(180deg, rgba(33, 33, 33, 1) 0%, rgba(18, 18, 18, 1) 25%, rgba(18, 18, 18, 1) 100%);
+    width: 71%;
+    height: 100%;
+    border-radius: 5px;
+}
