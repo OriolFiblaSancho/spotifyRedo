@@ -54,6 +54,8 @@ input {
     width: 80%;
     height: 80%;
     object-fit: contain;
+
+    cursor: pointer;
 }
 
 #searchBar {
@@ -75,17 +77,40 @@ input {
 
     border-radius: 50px;
     max-height: 80%;
+    transition: 0.2s;
+}
+
+#searchInput:hover {
+    background-color: #2a2a2a;
+}
+
+#searchInput:focus{
+    border: #fff 2.5px solid;
 }
 
 #searchButton {
     background-color: #1f1f1f;
     color: #2a2a2a;
-    height: 50px;
-    width: 51px;
+    height: 45px;
+    width: 46px;
     border-radius: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    transition: 0.2s;
+}
+
+#searchButton:hover {
+    background-color: #2a2a2a;
+    transform: scale(1.05);
+    filter: brightness(1.5);
+}
+
+#searchButton:active {
+    background-color: #2a2a2a;
+    transform: scale(1);
+    filter: brightness(1);
 }
 
 #searchButton img {
@@ -104,12 +129,19 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    cursor: pointer;
 }
 
 #userMenu img {
     width: 35px;
     height: 35px;
     border-radius: 50px;
+}
+
+#userMenu:hover {
+    transform: scale(1.03);
+    
 }
 
 
