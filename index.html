@@ -16,7 +16,7 @@
             <button id="searchButton">
                 <img src="assets\icons\searchPath.svg">
             </button>
-            <input type="text" id="searchInput" placeholder="¿Qué quieres reproducir?">
+            <input type="text" id="searchInput" placeholder="What do you want to play?">
         </div>
 
         <div id="userMenu">
@@ -25,15 +25,116 @@
     </div>
     <main>
         <div id="biblioteca">
-            
+            <div id="bibliotecaHeader">
+                <h2>Your Library</h2>
+
+                <ul id="bibliotecaCategories">
+                    <li class="category">
+                        <span>Playlists</span>
+                    </li>
+                    <li class="category">
+                        <span>Artists</span>
+                    </li>
+                    <li class="category">
+                        <span>Albums</span>
+                    </li>
+                    <li class="category">
+                        <span>Podcasts</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="bibliotecaContent">
+                <div class="bibliotecaItem">
+                    <img class="itemIcon" src="assets\img\playlist\LikedSongsPlaylist.jpg" >
+                    <img class="playButton" src="assets/icons/play.png">
+                    <div id="bibliotecaItemInfo">
+                        <h3> Liked Songs</h3>
+                        <h4>Playlist · 1028 songs</h4>
+                    </div>
+                </div>
+                <div class="bibliotecaItem">
+                    <img class="itemIcon" src="assets\img\playlist\YourEpisodes.png" >
+                    <img class="playButton" src="assets/icons/play.png">
+                    <div id="bibliotecaItemInfo">
+                        <h3> Your Episodes</h3>
+                        <h4>Saved & downloaded episodes</h4>
+                    </div>
+                </div>
+                <div class="bibliotecaItem">
+                    <img class="itemIcon" src="assets/img/playlist/iGetKnockDown.jpg" >
+                    <img class="playButton" src="assets/icons/play.png">
+                    <div id="bibliotecaItemInfo">
+                        <h3>i get knocked down, but i get up again</h3>
+                        <h4>Playlist · Kristján Jensen</h4>
+                    </div>
+                </div>
+                <div class="bibliotecaItem">
+                    <img class="itemIcon" src="assets/img/playlist/battleRoyale.avif" >
+                    <img class="playButton" src="assets/icons/play.png">
+                    <div id="bibliotecaItemInfo">
+                        <h3>Battle Royale Mix</h3>
+                        <h4>Playlist · Orifibla</h4>
+                    </div>
+                </div>
+                <div class="bibliotecaItem">
+                    <img class="itemIcon" src="assets/img/playlist/evil.png" >
+                    <img class="playButton" src="assets/icons/play.png">
+                    <div id="bibliotecaItemInfo">
+                        <h3>Evil Gay Retard Mix</h3>
+                        <h4>Playlist · Spotify · Made for you</h4>
+                    </div>
+                </div>
+                <div class="bibliotecaItem">
+                    <img class="itemIcon" src="assets/img/playlist/cringe.png" >
+                    <img class="playButton" src="assets/icons/play.png">
+                    <div id="bibliotecaItemInfo">
+                        <h3>Cringe Mix</h3>
+                        <h4>Playlist · Spotify</h4>
+                    </div>
+                </div>
+                <div class="bibliotecaItem">
+                    <img class="itemIcon" src="assets/img/playlist/howToFart.png" >
+                    <img class="playButton" src="assets/icons/play.png">
+                    <div id="bibliotecaItemInfo">
+                        <h3>How to Fart - Louder and Stronger</h3>
+                        <h4>Audiobook · Dr. R. Sole PH.D.</h4>
+                    </div>
+                </div>
+                <div class="bibliotecaItem">
+                    <img class="itemIcon" src="assets/img/playlist/hollow.jpg" >
+                    <img class="playButton" src="assets/icons/play.png">
+                    <div id="bibliotecaItemInfo">
+                        <h3>Hollow Knight (Original Soundtrack)</h3>
+                        <h4>Album · Christopher Larkin</h4>
+                    </div>
+                </div>
+                <div class="bibliotecaItem">
+                    <img class="itemIcon" src="assets/img/playlist/postal.png" >
+                    <img class="playButton" src="assets/icons/play.png">
+                    <div id="bibliotecaItemInfo">
+                        <h3>The Postal 2 dude's amazing playlist</h3>
+                        <h4>Playlist · Meme_Lord</h4>
+                    </div>
+                </div>
+                <div class="bibliotecaItem">
+                    <img class="itemIcon" src="assets/img/playlist/joe.png" >
+                    <img class="playButton" src="assets/icons/play.png">
+                    <div id="bibliotecaItemInfo">
+                        <h3>The Joe Rogan Experience</h3>
+                        <h4>Podcast · 1,546 episodes</h4>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div id="mainPage">
 
         </div>
-    </main>
+    </main>    
     <div id="reproductor">
 
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
